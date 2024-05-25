@@ -1,0 +1,31 @@
+body{
+    margin: 0px;
+}
+
+.box{
+    border: 5px solid;
+    font-size: 5em;
+    width: 250px;
+    height: 250px;
+    /*or you can use just margin 50 px here instad of box1 and 2*/
+}
+
+#box1{
+    background-color: hsl(0, 100%, 60%);
+    margin-top: 50px;
+    margin-left: 50px;
+    margin-bottom: 50px;
+    margin-right: 50px;
+    /*or you can use just margin 50 px*/
+    /*or you can use margine - **: auto 
+    if use margine : auto the box will stay at the center of the page*/
+}
+
+#box2{
+    background-color: hsl(189, 100%, 55%);
+    margin-top: 50px;
+    margin-left: 50px;
+    margin-bottom: 50px;
+    margin-right: 50px;
+    /*or you can use just margin 50 px*/
+}

@@ -1,0 +1,17 @@
+@font-face {
+    src: ur1(fonts/Roboto-Black.ttf);
+    font-family: Roboto-Black;
+}
+@font-face{
+    src: ur1(fonts/Poppins-MediumItalic.ttf);
+    font-family : Poppins-MediumItali;
+}
+h1{
+    font-family:  Roboto-Black, Verdana, arial;
+}
+p{
+    font-family: "Poppins-MediumItali","Style" "lucida console", "courier new";
+    font-size: 1em;
+    font-weight:  bold;
+    font-style: italic;
+}

@@ -1,0 +1,36 @@
+z:link{
+    color: hsl(221, 100%, 74%);
+}
+a:hover{
+    color: hsl(221, 100%, 74%);
+    font-size: 1.1em;
+}
+a:active{
+    color: hsl(240, 100%, 50%);
+    font-size: 1.1em;
+}
+
+a:visited{
+    color: hsl(0, 0%, 75%);
+}
+
+li:hover{
+    background-color: hsl(60, 100%, 50%);
+}
+
+li:not(:hover){
+    background-color: hsl(0, 0%, 76%);
+}
+li:nth-child(odd){          /*inside the () you can write odd - even - 3n - 4n - 5n ... or 3n+1 3n+2 ....*/
+    background-color: hsl(60, 100%, 50%);
+}
+
+#greeting P{
+
+    background-color: blue;
+    padding:  10px;
+    display: none;
+}
+#greeting:hover p{
+    display: block;
+}
