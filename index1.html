@@ -57,7 +57,8 @@
         </video>
 
 
-        <form action="osama.php">
+        <form action="osama.php" method="POST">
+            <input type="hidden" value="Ousama">
 
             <div>
                 <label >Username</label>
@@ -73,8 +74,19 @@
                 <label >E-mail</label>
                 <input type="email" required  name="mail">
             </div>
+            <input type="reset" value="Reset">
             <input type="submit" value="save"><!-- value use to change somthing or to make
             the original contenct show-->
+
+            <div>
+                <label >Color</label>
+                <input type="Color" name="Color">
+            </div>
+
+            <div>
+                <label >Range</label>
+                <input type="range" name="Range" min="0" max="100" step="20" value="0">
+            </div>
             
         </form>
     
