@@ -62,7 +62,12 @@
 
             <div>
                 <label >Username</label>
-                <input type="text" required placeholder="Username" name="user" autofocus>
+                <input 
+                type="text" 
+                required 
+                placeholder="Username" 
+                name="user" 
+                autofocus>
             </div>
             <br> <!-- to do space-->
             <div>
@@ -74,9 +79,7 @@
                 <label >E-mail</label>
                 <input type="email" required  name="mail">
             </div>
-            <input type="reset" value="Reset">
-            <input type="submit" value="save"><!-- value use to change somthing or to make
-            the original contenct show-->
+            
 
             <div>
                 <label >Color</label>
@@ -92,10 +95,33 @@
                 <label >Number</label>
                 <input type="number" name="number" min="0" max="100" step="10" value="0">
             </div>
+            
+
+            <div>
+                <input type="radio" name="os" id="windows" checked>
+                <label >windows</label>
+            </div>
+            <div>
+                <input type="radio" name="os" id="Linux">
+                <label >Linux</label>
+            </div>
+            <div>
+                <input type="radio" name="os" id="Mac">
+                <label >Mac</label>
+            </div>
+            <br>
+
+
+            <input type="reset" value="Reset">
+            <input type="submit" value="save"><!-- value use to change somthing or to make
+            the original contenct show-->
+
+
+
         </form>
 
     
     </body>
 
-    
+
 </html>
