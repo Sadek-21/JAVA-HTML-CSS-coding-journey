@@ -138,21 +138,69 @@
 
             <!--Select-->
             <label for="book">choose book:</label>
-            <select name="book" id="book"></select>
-                <option value="1">Book1</option>
-                <option value="2">Book2</option>
-                <option value="3">Book3</option>
-                <option value="4">Book4</option>
+            <select name="book" id="book"  >
+                <optgroup label="Romantic Books">
+                    <option value="1">Book1</option>
+                    <option value="2">Book2</option>
+                    <option value="3">Book3</option>
+                    <option value="4" selected>Book4</option>
+                </optgroup>
+                <optgroup label="fantasty books ">
+                    <option value="5">Book5</option>
+                    <option value="6">Book6</option>
+                    <option value="7">Book7</option>
+                    <option value="8">Book8</option>
+                </optgroup>
+                
+
+            </select>
 
 
             <hr />
 
             <!--Textarea-->
 
-
-
+            <textarea name="subject" cols="30" rows="10" placeholder="test text"></textarea>
 
             <hr />
+
+
+            <!--chosing fiel-->
+            <div>
+                <label for="Up">Uplod</label>
+                <input id="Up" type="file">
+            </div>
+
+            <!--searche-->
+
+            <div>
+                <label for="Se">URL</label>
+                <input id="Se" type="url">
+            </div>
+
+            <!--URL-->
+            <div>
+                <label for="URL">Searche</label>
+                <input id="URL" type="search">
+            </div>
+
+            <!--Date-->
+            <div>
+                <label for="Dat">Date</label>
+                <input id="Dat" type="date">
+            </div>
+            <!--Month-->
+            <div>
+                <label for="Mon">Month</label>
+                <input id="Mon" type="month">
+            </div>
+            <!--Time-->
+            <div>
+                <label for="Wee">Time</label>
+                <input id="Wee" type="time">
+            </div>
+
+
 
 
             <input type="reset" value="Reset">
