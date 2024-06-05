@@ -25,8 +25,15 @@
     /* margin we use it to make the outside contine to
      be big or small its the oposit woth padding
      marigin accept the negativ value
-     */
-    margin: 10px; 
+    */
+    width: 70%;    /* so this it use to make the contain just 70% of the page */
+    margin: 10px;   
+    margin-left: auto;
+    margin-right: auto;
+
+    border-width: 10px; /* for using border */
+    border-color: black;
+    border-style: solid;
 
  }
 
