@@ -7,28 +7,34 @@
    for the class we use point .
  */
 
- .A{
-    
+ div {
+    background-color: rgb(221, 236, 236);
  }
 
 
+ .B {
+    font-size: 50px;
+    background-image: url(../image/8fe6ad14-09e3-46e8-ac22-d26609520d4d.jpg);
+    background-repeat: no-repeat;  
+    /* or we can use repeat to se the picture multipel time
+       or ifi want just with the X ===>repeat-X
+       or eith Y====> repeat-Y
+    */
+    background-attachment: fixed;
+    /* or we can use scroll so the background still showing even we go down */
 
- .B{
+    background-position: left top;
+    /* we can use left center 
+    or right botom ...
+    we can use this to make the pictur in the backround 
+    in every position we want
+
+    or we can use pixal ===> background-position: 100px, 100px;
+    or we can use percentage ===> background-position: 100%, 100%;
+    */
+
+    background-size: contain;
+    /* or we can use pixal or we canuse percentage */
 
  }
 
-
-
- .C{
-
- }
-
-
- .D{
-
- }
-
-
- .E{
-
- }
