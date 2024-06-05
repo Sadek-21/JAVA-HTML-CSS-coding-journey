@@ -34,9 +34,18 @@
     border-width: 10px; /* for using border */
     border-color: black;
     border-style: solid;
+    /* or we can use all that in one sentence  border: 10px solid red*/
 
  }
 
+.Outline {
+    background-color: #DDD;
+    width: 300px;
+    padding: 10px;
+    outline: 10px solid red;
+    border: 10px solid green;
+
+}
 
  .B {
     font-size: 50px;
