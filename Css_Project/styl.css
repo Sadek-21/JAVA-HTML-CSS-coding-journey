@@ -72,3 +72,63 @@
     /* or we can use pixal or we canuse percentage */
 
  }
+
+ /*Block
+ -Take Full width If no width
+ -Add lien Break
+ -Respect Padding margin width Height
+ */
+ .Block {
+   background-color: rgb(223, 207, 207);
+   width: 400px;
+   padding: 10px;
+   margin: 10px;
+   height: 40px;
+
+ }
+
+
+ /*Inline
+ -Do not inline break
+ -Do not respect width height 
+ -Respect padding and margin just left and right
+ -Allow elemnt before and after it 
+ */
+.Inline {
+   background-color: rgb(223, 207, 207);
+   width: 400px;
+   height: 40px;
+   padding: 30px;
+   margin: 10px;
+   /*if he want the span to respect the widht and... we use 
+   display : block:*/
+
+}
+
+ /*Inline Block
+ -Allow elemnt before and after it 
+ -Respect padding and margin just left and right
+ -
+ */
+ .Inline-Block {
+   background-color: rgb(223, 207, 207);
+   display: inline-block;
+   width: 400px;
+   height: 40px;
+   padding: 30px;
+   margin: 10px;
+
+ }
+
+ /* Element visibility and Use cases */
+ .VISIBILITY{
+   background-color: aquamarine;
+   margin: 10px 0;
+   /* display: none; if we want to make this block not 
+   showing that will help us in java so nothing show until we 
+   click to  a button*/
+   /* visibility: hidden; it use to hide the contune of
+    somthing but you will see theyr place sowe use it if we make
+     some animation  */
+
+ }
